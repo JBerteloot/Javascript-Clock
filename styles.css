@@ -1,0 +1,23 @@
+html{box-sizing: border-box; /*font-family: 'Orbitron', sans-serif; */ height:100%;}
+*, *::before, *::after {box-sizing:inherit;}
+
+@font-face 
+{
+  font-family: digital;
+  src: url("alarm-clock.ttf")
+}
+body {
+  background: rgb(126, 231, 126);
+  font-family: digital;
+  font-size: 100px;
+  height:100%;
+}
+
+#clock {
+  display: flex;
+  flex-direction: row;
+  /* BECAUSE DISPLAY FLEX, USE JUSTIFY-CONTENT AND ALIGH-ITEMS TO CENTER IN MIDDLE OF PAGE ----- IF NO FLEX, USE ALIGN-TEXT :::: ALWAYS GIVE A HEIGHT ON THE PAGE, BODY AND DIV*/
+  justify-content: center;
+  align-items:center;
+  height:100%;
+}
