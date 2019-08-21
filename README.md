@@ -1,4 +1,6 @@
-## Objectives
+#### Check out the live demo of this app at https://jberteloot.github.io/Javascript-Clock/
+
+## JavaScript Clock: Assignment Instructions
 
 ### Learning Objectives
 
