@@ -12,6 +12,13 @@ body {
   height:100%;
 }
 
+nav {
+  font-family: 'Arial';
+  font-size: 8px;
+  background-color: aliceblue;
+  width: 120px;
+}
+
 #hex {
   display: flex;
   flex-direction: row;
